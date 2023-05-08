@@ -4,15 +4,19 @@ It is a concept of having a common pipeline code in the version control system t
 
 Folder Structure 
 
+vars: This directory holds all the global shared library code that can be called from a pipeline. it has all the libary files with .groovy extension
+src: it is added to the class path during every script compilation. We can add custom groovy code to extend our shared libary code.
+resources: All the non-groovy files required for your pipelines can be managed in this folder.
+
 ```
 Project Root
 |
 |
-|-------Vars ( we have main groovy scripts and reusable function defined )
+|-------Vars 
         |
         |----hello.groovy 
         |
-        src ( utility is a function which is used with in the function and if there is any  static variables can be defined)
+        src 
         |
         |----Utitlity.groovy 
         |
