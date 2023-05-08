@@ -2,6 +2,7 @@
 
 We have to Create Folder Structure 
 
+```
 Project Root
 |
 |
@@ -16,3 +17,4 @@ Project Root
         resources
         |
         |----config.json
+```
