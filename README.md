@@ -1,6 +1,8 @@
-# sharedlibs
+# Jenkins Shared Library
 
-We have to Create Folder Structure 
+It is a concept of having a common pipeline code in the version control system that can be used by any number of pipelines just by referencing it.Mutliple team can use the same shared library for their team.
+
+Folder Structure 
 
 ```
 Project Root
